@@ -1,8 +1,5 @@
- # Chad Miller March 2014
-# gcc has form
-# int vfprintf(FILE *stream, const char *format, va_list arg)
-# musl has form
-# int musl_vfprintf(MUSL_FILE *restrict f, const char *restrict fmt, va_list ap)
+# Chad Miller March 2014
+# Implements a vfprintf fuzzer in Ruby
 # grammar has format: %[flags][width][.precision][length]specifier 
 require 'securerandom'
 
